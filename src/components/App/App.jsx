@@ -8,9 +8,9 @@ function App() {
     <div>
     <Titulo />
     
-    <Corpo nome="Stefani"/>
-    <Corpo nome="Jomar"/>
-    <Corpo nome="Julia"/>
+    <Corpo nome="Stefani" idade="34"/>
+    <Corpo nome="Jomar" idade="53"/>
+    <Corpo nome="Julia"idade="14" />
 
     <br />
    
