@@ -1,9 +1,8 @@
-function Titulo () {
-
-    let nome = "PRINCIPAL"
-    
-    return <h1>TITULO DA PAGINA - {nome}</h1>
-
+function Titulo ({titulo, cor}) {
+    return ( 
+    <div> 
+        <h1 style={{ color: cor }}> {titulo} </h1>
+    </div>
+    )
 }
-
 export default Titulo

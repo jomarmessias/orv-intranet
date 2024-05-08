@@ -1,20 +1,27 @@
 import Titulo from "../TestComponent/Titulo"
-import Corpo from "../TestComponent/Corpo"
+import Props from "../TestComponent/Props"
+import Estate from "../TestComponent/Estate"
 
 function App() {
 
-  
   return (
     <div>
-    <Titulo />
-    
-    <Corpo nome="Stefani" idade="34"/>
-    <Corpo nome="Jomar" idade="53"/>
-    <Corpo nome="Julia"idade="14" />
+      <div>
+        <Titulo titulo="Exemplo - Props" cor="red"/>
+        <Props nome="Jomar" idade="53"/>
+        <Props nome="Julia"idade="14" />
+        <Props idade="20"/>
+        <p>Teste texto simples </p>
+        <p>segundo paragrafo</p><br />
+      </div>
+      <div>
+        <Titulo titulo="Exemplo - State" cor="blue" />
+        <Estate />
+        <Estate />
+        <Estate />
+      </div>
 
-    <br />
-   
-    <p>Teste texto simples </p>
+
     </div>
   )
 }
