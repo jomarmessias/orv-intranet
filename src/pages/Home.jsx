@@ -1,4 +1,4 @@
-import Menu from "./Menu";
+import Menu from "./menu/Menu";
 
 function Home() {
 
@@ -6,6 +6,11 @@ function Home() {
         <div>
         <Menu />
         <h1>Home</h1>    
+        
+        
+        
+        
+        
         </div>
     )
 }

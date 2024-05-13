@@ -1,13 +1,13 @@
 import Titulo from "../TestComponent/Titulo"
 import Props from "../TestComponent/Props"
 import Estate from "../TestComponent/Estate"
-import Menu from "../../pages/Menu"
+import Menu from "../../pages/menu/Menu"
 function Exemplos() {
 
   return (
     <div>
       <Menu />
-      <Titulo titulo="Exemplos React" cor="green"/>
+      <h1>Exemplos</h1>
       <div>
         <Titulo titulo="Exemplo - Props" cor="red"/>
         <Props nome="Jomar" idade="53"/>

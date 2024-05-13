@@ -1,7 +1,7 @@
 function Titulo ({titulo, cor}) {
     return ( 
     <div> 
-        <h1 style={{ color: cor }}> {titulo} </h1>
+        <h2 style={{ color: cor }}> {titulo} </h2>
     </div>
     )
 }
