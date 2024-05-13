@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from '/src/pages/Home';
+import Projetos from '/src/pages/projetos/tarefas/Tarefas'
 import Sobre from '/src/pages/Sobre';
 import Contato from '/src/pages/Contato';
 import Exemplos from '../TestComponent/Exemplos';
@@ -12,6 +13,7 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={ <Home />} />    
+            <Route path="Projetos" element={ <Projetos/> } />
             <Route path="Sobre" element={ <Sobre/> } />
             <Route path="Contato" element={ <Contato/> } />
             <Route path="Exemplos" element={ <Exemplos/> } />
